@@ -8,6 +8,9 @@
 import Foundation
 
 func solution(_ s:String) -> Int{
+    if s.count % 2 == 1 {
+        return 0
+    }
     let str = Array(s)
     var ret: [Character] = []
     for i in str.indices {
