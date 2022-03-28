@@ -39,5 +39,5 @@ for str in flag {
     }
     ret += String(i)
 }
-print(ret)
 
+print(ret)
